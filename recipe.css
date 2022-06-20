@@ -1,0 +1,56 @@
+body{
+	background-color: white;
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia;
+}
+a {
+	color: #CD853F ;
+}
+
+a:hover#index	{
+	color:yellow;
+}
+
+
+h3 {
+	text-decoration:underline;
+	color: #CD853F;
+	background-color: #F0F0F0;
+	font-family: Lucida Sans Unicode;
+}
+
+#sticky{
+	font-family: 22pt;
+	text-align:center;
+	
+}
+span#under {text-decoration:underline;
+}
+span#slap{
+	text-decoration:line-through;
+}
+
+div#ital{
+	font-style:italic;
+	
+}
+div.comments{
+	font-style:italic;
+	text-indent: 50px;
+	background-color:#FFFFA8 ;
+}
+img {width:2in;
+	height:2in;
+	padding: 10px;
+}
+div#two	{
+	text-indent:30px;
+}
+div#three	{
+	text-indent:60px;
+}
+
+div.dir{
+	font-weight:bold;
+}
