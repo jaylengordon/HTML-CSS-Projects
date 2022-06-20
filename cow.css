@@ -1,0 +1,97 @@
+/**
+ *Jaylen Gordon
+ *INFX 370 Section 1
+ *Dr. West - Project 5
+ *22 November 2021
+ */
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial helvetica sans-serif;
+    font-size: 14pt;
+}
+
+#top, #bottom{
+    background-color: #005AB4;
+    color: white;
+    padding: 0.5em;
+    margin-bottom: 2px;
+}
+
+#bottom{
+    margin-top: 2px;
+}
+
+#top h1{
+    display: inline;
+}
+
+#mainContent{
+    background-color: #B0E0E6;
+    height: 300px;
+}
+
+#logo{
+    margin-right: 1em;
+    vertical-align: top;
+    float: left;
+}
+
+#login p{
+    text-align: center;
+}
+
+#login #creds{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    margin: -120px 0 0 -200px;
+    top: 60%;
+    left: 60%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#errMsg{
+    color: red;
+    font-style: italic;
+}
+
+#header{
+    left: 40%;
+    top: 150%;
+}
+
+#list{
+    left: 40%;
+    top: 200%;
+}
+
+#logoutDiv{
+    position: fixed;
+    top: 370px;
+    left: 0px;
+}
+
+#logoutDiv a{
+    color: red;
+    text-decoration: underline;
+}
+
+#todo{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+#controlPanel{
+    position: fixed;
+    display: inline;
+    top: 360px;
+    left: 170px;
+}
